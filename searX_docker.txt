@@ -1,0 +1,11 @@
+mkdir my-instance
+cd my-instance
+export PORT=8080
+docker pull searxng/searxng
+docker run --rm \
+             -d -p ${PORT}:8080 \
+             -v "${PWD}/searxng:/etc/searxng" \
+             -e "BASE_URL=http://localhost:$PORT/" \
+             -e "INSTANCE_NAME=my-instance" \
+             searxng/searxng
+2f998.... # container's ID

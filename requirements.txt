@@ -1,0 +1,13 @@
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+python-dotenv
+requests
+langchain-core
+python-dotenv
+groq
+langchain-groq
+fastapi
+uvicorn
+langchain_aws

@@ -1,0 +1,4 @@
+.env
+myvenv
+searxng
+__pycache__/

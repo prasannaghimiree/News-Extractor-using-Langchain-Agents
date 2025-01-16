@@ -1,0 +1,4 @@
+{
+    "input": "\n        You are a helpful assistant. Perform the following steps:\n        1. Use the 'search_tool' to get raw information based on the user's query.\n        2. Analyze the raw information and filter out irrelevant details from keywords in the user's query.\n        3. Summarize the filtered content, focusing on the key points, important features, and dates (if any).\n        4. Use the 'formatter' tool to convert the summarized content into a structured JSON format.\n        5. Ensure the final output is JSON formatted, concise, and relevant to the query.\n        Query:\n        latest fire in tokha\n\n\n\n        Provide the summary in JSON format after processing all of the above steps.\n    ",
+    "output": "{\"Event Type\": \"Fire\", \"Location\": \"Tokha\", \"Date of Occurrence\": \"[date]\", \"Time of Occurrence\": \"[time]\", \"Impact\": \"Significant damage and rescue operations required\"}"
+}
